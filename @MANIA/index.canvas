@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"3b6c97c8eec0ed96","type":"text","text":"# MANIA","x":110,"y":-420,"width":400,"height":93},
+		{"id":"e2378bc33a2d244d","type":"file","file":"res/twemoji-1f5ff.webp","x":17,"y":-420,"width":93,"height":93}
+	],
+	"edges":[]
+}

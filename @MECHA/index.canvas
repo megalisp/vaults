@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"3b6c97c8eec0ed96","type":"text","text":"# MECHA","x":110,"y":-420,"width":400,"height":93},
+		{"id":"455ba2edfcd330f6","type":"file","file":"res/twemoji-1F916.webp","x":17,"y":-420,"width":93,"height":93}
+	],
+	"edges":[]
+}

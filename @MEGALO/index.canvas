@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"3b6c97c8eec0ed96","type":"text","text":"# MEGALO","x":110,"y":-420,"width":400,"height":93},
+		{"id":"93f3a54ffa1cf951","type":"file","file":"res/twemoji-1F9E0.webp","x":17,"y":-420,"width":93,"height":93}
+	],
+	"edges":[]
+}

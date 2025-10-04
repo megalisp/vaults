@@ -1,0 +1,16 @@
+Unless explicitly stated otherwise,
+all text, assets, etc are under the:
+CC-BY-ND 4.0
+
+
+---
+
+Exceptions
+
+---
+
+All files marked Twemoji are part of
+https://github.com/twitter/twemoji
+And under a mix of MIT x CC-BY 4.0.
+Please note and follow the terms of
+said assets accordingly.

@@ -1,0 +1,8 @@
+{
+  "accentColor": "#ffde05",
+  "enabledCssSnippets": [
+    "vault_title"
+  ],
+  "baseFontSize": 30,
+  "theme": "obsidian"
+}
