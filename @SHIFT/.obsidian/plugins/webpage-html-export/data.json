@@ -10,7 +10,7 @@
     "postProcess": true,
     "displayProgress": true,
     "inlineHTML": false,
-    "exportPath": "/var/room/omegalisp/.vaults/_EXPORTS/vault-mecha",
+    "exportPath": "/var/room/omegalisp/.vaults/_EXPORTS/vault-shift",
     "filesToExport": [
       "all"
     ],

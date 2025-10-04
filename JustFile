@@ -1,0 +1,39 @@
+# Export all vault repositories
+export:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    
+    # Create _EXPORTS directory if it doesn't exist
+    if [ ! -d "_EXPORTS" ]; then
+        echo "Creating _EXPORTS directory..."
+        mkdir -p _EXPORTS
+    fi
+    
+    cd _EXPORTS
+    
+    # List of vault repositories
+    repos=(
+        "github.com/megalisp/vault-megalo"
+        "github.com/megalisp/vault-mania"
+        "github.com/megalisp/vault-mecha"
+        "github.com/megalisp/vault-gday"
+        "github.com/megalisp/vault-ice3"
+        "github.com/megalisp/vault-shift"
+        "github.com/megalisp/vault-goli"
+    )
+    
+    # Clone or update each repository
+    for repo in "${repos[@]}"; do
+        repo_name=$(basename "$repo")
+        if [ -d "$repo_name" ]; then
+            echo "Updating $repo_name..."
+            cd "$repo_name"
+            git pull origin main || git pull origin master || echo "Failed to pull $repo_name"
+            cd ..
+        else
+            echo "Cloning $repo_name..."
+            git clone "https://$repo.git" || echo "Failed to clone $repo"
+        fi
+    done
+    
+    echo "Export complete! All vault repositories are in _EXPORT/"

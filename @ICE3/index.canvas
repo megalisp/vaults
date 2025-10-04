@@ -1,9 +1,7 @@
 {
 	"nodes":[
 		{"id":"3b6c97c8eec0ed96","type":"text","text":"# ICE3","x":110,"y":-420,"width":400,"height":93},
-		{"id":"75ccf4f7a22708b2","type":"file","file":"_res_/twemoji-1f9ca.webp","x":110,"y":-820,"width":400,"height":400},
-		{"id":"5ac198e2994ee5fe","type":"text","text":"# ICE3","x":-1061,"y":-3969,"width":400,"height":93},
-		{"id":"e7864893af183e06","x":-1154,"y":-3969,"width":93,"height":93,"type":"file","file":"res/twemoji-1f9ca.webp"}
+		{"id":"e7864893af183e06","type":"file","file":"res/twemoji-1f9ca.webp","x":17,"y":-420,"width":93,"height":93}
 	],
 	"edges":[]
 }
